@@ -1,6 +1,6 @@
-global complex_multiplication_
+global calculate_
 
-complex_multiplication_:
+calculate_:
 	vmovaps ymm1, [rdi]
 	vmovaps ymm0, [rsi]
 
